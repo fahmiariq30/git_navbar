@@ -81,6 +81,11 @@ nav a:hover {
   transition: all 0.5s;
 }
 
+#footer {
+ height: 40px;
+  background-color: black;
+}
+
 /* Hamburger Animasi */
 .menu-toggle span:nth-child(2) {
   transform-origin: 0 0;

@@ -43,9 +43,9 @@ nav {
 nav ul {
   display: flex;
   list-style: none;
-  width: 50%;
+  width: 60%;
+  margin-top: 13px;
   justify-content: space-between;
-
 }
 
 nav a {
@@ -60,23 +60,20 @@ nav a {
 nav a:hover {
   background-color: brown;
   color: #fff;
-  border-bottom: 3px solid brown;
-  border-top: 2px solid brown;
+  border-bottom: 2px solid brown;
 }
 
 nav .active {
   background-color: brown;
   color: #fff;
-  border-bottom: 3px solid brown;
-  border-top: 2px solid brown;
+  border-bottom: 2px solid brown;
 }
-
 
 .welcome-text {
   background-color: rgba(128, 128, 128, 0.63);
-  width: 55%;
-  margin: auto;
-  margin-top: 25em;
+  width: 30%;
+  margin-left: 20px;
+  margin-top: 10em;
 }
 
 h2 {
@@ -91,6 +88,22 @@ h2 {
   background-color: rgb(33, 194, 140);
   color: black;
   font-size: 20px;
+}
+
+.carousel {
+  width: 50%;
+  height: 200px;
+  margin-top: 2em;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  justify-content: center;
+}
+
+.carousel img {
+  width: 400px;
+  height: 300px;
+  margin: auto;
 }
 
 .footer {
